@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/almacenar.js" defer></script>
+    <script src="./js/Script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+</head>
+
+<body>
+    <H3>
+        Tareas a realizar
+        <button class="borrar">borrar TODO</button>
+</H3>
+    <input type="text" placeholder="Ingresa la tarea" id="texto">
+    <button>Agregar</button>
+    <input type="checkbox" id="tarea1">
+    <div id="cuerpo">
+        <label for="tarea1">Sacar al perro</label>
+           <div class="tareas">     
+            <div class="tarea1">
+                <input type="checkbox" id="tarea1">
+                <label for="tarea1">Sacar el perro</label>
+            </div>
+            <div class="tarea2">
+                <input type="checkbox" id="tarea2">
+                <label for="tarea2">Sacar al gato</label>
+           </div>
+        </div>
+    </div>
+</body>
+
+</html>
